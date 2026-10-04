@@ -1,0 +1,13 @@
+WINDOWS (Command Prompt or PowerShell)
+python -m venv aipdd_env
+aipdd_env\Scripts\activate
+pip install numpy opencv-python matplotlib ultralytics jupyter
+python -m ipykernel install --user --name aipdd_env --display-name "aipdd_env"
+jupyter notebook
+
+LINUX / MAC
+python3 -m venv aipdd_env
+source aipdd_env/bin/activate
+pip install numpy opencv-python matplotlib ultralytics jupyter
+python -m ipykernel install --user --name aipdd_env --display-name "aipdd_env"
+jupyter notebook
